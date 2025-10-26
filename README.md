@@ -59,6 +59,42 @@ Click Save → Launch Scan.
 
 Wait for the scan to complete (approx. 30–60 minutes).
 
+<img width="1902" height="918" alt="image" src="https://github.com/user-attachments/assets/876a4d78-adf0-4986-86e7-e79c68bca38c" />
+
+
+
+*PDF attached but heres a screenshot*
+
+<img width="1127" height="733" alt="image" src="https://github.com/user-attachments/assets/f513a182-d70f-4468-a6c3-0637ecc62f2c" />
+
+Findings :
+
+1. SSL Certificate Cannot Be Trusted
+
+Plugin ID: 51192
+
+Severity: Medium (CVSS 6.5)
+
+Description: The SSL certificate used by the host is not signed by a trusted Certificate Authority (CA).
+
+Impact: Attackers could perform man-in-the-middle (MITM) attacks.
+
+Recommendation: Use a certificate issued by a trusted CA or configure the system to use valid internal PKI certificates.
+
+
+2.SMB Signing Not Required
+
+Plugin ID: 57608
+
+Severity: Medium (CVSS 5.3)
+
+Description: The SMB server does not require message signing, which makes it vulnerable to tampering or relay attacks.
+
+Impact: Attackers can intercept and modify SMB communications.
+
+Recommendation: Enable SMB signing to ensure message integrity.
+
+
 
 Questions: 
 1.What is vulnerability scanning?
